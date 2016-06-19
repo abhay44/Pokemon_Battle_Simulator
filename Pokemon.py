@@ -1,4 +1,5 @@
 damage=10
+#main class goes here
 class Pokemon():
 	def __init__(self,hp,_type,name):
 		self.hp=hp
@@ -11,6 +12,7 @@ class Pokemon():
 	def changehp(self,value):
 		self.hp=value
 
+#Inherited classes
 class FirePokemon(Pokemon):
 	def __init__(self,name,hp):
 		Pokemon.__init__(self,hp,"fire",name)
