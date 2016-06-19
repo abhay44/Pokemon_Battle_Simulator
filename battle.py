@@ -8,7 +8,7 @@ trainer1_count=0
 trainer2_count=0
 trainer1=[]
 trainer2=[]
-#randomly alloted lists for trainer1 and trainer2
+#randomly alloted lists of trainer1 and trainer2
 for i in range(0,3):
 	trainer1.append(random.choice(pokemons_trainer1))
 	trainer2.append(random.choice(pokemons_trainer2))

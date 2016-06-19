@@ -1,4 +1,5 @@
 damage=10
+
 #main class goes here
 class Pokemon():
 	def __init__(self,hp,_type,name):
